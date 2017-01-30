@@ -3,4 +3,5 @@ MAINTAINER Philip Graf <mail@philipgraf.de>
 
 ADD rootfs /
 
-CMD ["/figlet", "hello world"]
+ENTRYPOINT ["/figlet"]
+CMD ["Hello world"]
